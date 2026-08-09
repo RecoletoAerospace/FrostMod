@@ -31,3 +31,8 @@ In the future, Starhopper and HLS will also get frost, once i find the tank size
 The frosts don't have particles yet, i haven't been able to make them work, but i will keep on trying.
 
 If you have any suggestion, bug report, or any coments about the frost mod, you can ask me in the [KKM Discord](https://discord.gg/CQzk9H84pr), [QSM Discord](https://discord.gg/ekEFh67JXN) or [my very own discord server](https://discord.gg/TzqwKdM6mD), i will gladly solve any questions and consider any proposals for more updates
+
+
+<img width="1919" height="1079" alt="Captura de pantalla 2026-08-06 210540" src="https://github.com/user-attachments/assets/00bedaf4-67f2-4920-9c54-9af8b11a6f42" />
+<img width="1919" height="1079" alt="Captura de pantalla 2026-08-08 202637" src="https://github.com/user-attachments/assets/f7e209d8-a35e-4356-8932-f24f41d43fec" />
+
