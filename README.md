@@ -35,4 +35,9 @@ If you have any suggestion, bug report, or any coments about the frost mod, you 
 
 <img width="1919" height="1079" alt="Captura de pantalla 2026-08-06 210540" src="https://github.com/user-attachments/assets/00bedaf4-67f2-4920-9c54-9af8b11a6f42" />
 <img width="1919" height="1079" alt="Captura de pantalla 2026-08-08 202637" src="https://github.com/user-attachments/assets/f7e209d8-a35e-4356-8932-f24f41d43fec" />
+<img width="1919" height="1079" alt="Captura de pantalla 2026-08-09 122424" src="https://github.com/user-attachments/assets/19ff9cd1-8d65-43ba-8976-7c5f26d9ca63" />
+<img width="1919" height="1079" alt="Captura de pantalla 2026-08-09 122332" src="https://github.com/user-attachments/assets/cc784ef6-2c24-4f00-912f-e4f0a2696637" />
+<img width="1919" height="1079" alt="Captura de pantalla 2026-08-09 120309" src="https://github.com/user-attachments/assets/9829b7b7-2e89-49fe-9a6d-c4516f8dbaf3" />
+<img width="1919" height="1079" alt="Captura de pantalla 2026-08-09 120153" src="https://github.com/user-attachments/assets/52990a58-19f2-4dca-aa76-497869e552a8" />
+<img width="1919" height="1079" alt="Captura de pantalla 2026-08-09 120117" src="https://github.com/user-attachments/assets/269a9c8a-0c7b-4f51-b746-2c4180a42213" />
 
