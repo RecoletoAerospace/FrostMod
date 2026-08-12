@@ -27,8 +27,20 @@ Frost Mod is a project i've inherited from a guy who inherited it from other guy
 
 -FnB Block 3 booster (both the single piece booster and the multiple sections one)
 
-In the future, Starhopper and HLS will also get frost, once i find the tank sizes and get some decent references of them.
-The frosts don't have particles yet, i haven't been able to make them work, but i will keep on trying.
+### Future plans:
+
+-Starhopper frost
+
+-HLS Frost
+
+-New frost model
+
+-Frost particles
+
+-Frost not going down at the same time as fuel
+
+-Integrated frost in tanks, depreating the parts
+
 
 If you have any suggestion, bug report, or any coments about the frost mod, you can ask me in the [KKM Discord](https://discord.gg/CQzk9H84pr), [QSM Discord](https://discord.gg/ekEFh67JXN) or [my very own discord server](https://discord.gg/TzqwKdM6mD), i will gladly solve any questions and consider any proposals for more updates
 
