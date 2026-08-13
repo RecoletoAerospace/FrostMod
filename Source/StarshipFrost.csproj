@@ -5,15 +5,50 @@
     <TargetFramework>net48</TargetFramework>
   </PropertyGroup>
   <PropertyGroup>
-    <LangVersion>15.0</LangVersion>
+    <LangVersion>10.0</LangVersion>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
   </PropertyGroup>
-  <PropertyGroup />
+  <PropertyGroup>
+    <!--
+      Before building, create a file named "kspmanaged.txt" next to this
+      .csproj (same folder) containing a single line: the full path to your
+      local KSP install's Managed folder, e.g.:
+
+        C:\Games\Kerbal Space Program\KSP_x64_Data\Managed
+
+      No quotes, no trailing slash, no other content in the file.
+      This file is git-ignored on purpose. Everyone's KSP install lives
+      somewhere different, and these assemblies are part of the KSP install
+      itself, not redistributable, so they're intentionally not vendored
+      in this repo.
+    -->
+    <KSPManagedDirFile>$(MSBuildThisFileDirectory)kspmanaged.txt</KSPManagedDirFile>
+    <KSPManagedDir Condition="Exists('$(KSPManagedDirFile)')">$([System.IO.File]::ReadAllText('$(KSPManagedDirFile)').Trim())</KSPManagedDir>
+  </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
-    <Reference Include="Assembly-CSharp" />
-    <Reference Include="UnityEngine.AnimationModule" />
-    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(KSPManagedDir)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>$(KSPManagedDir)\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(KSPManagedDir)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
   </ItemGroup>
+
+  <!--
+    Drop the built DLL straight into GameData so a local test install picks it
+    up without a manual copy step.
+  -->
+  <Target Name="CopyToGameData" AfterTargets="Build">
+    <Copy SourceFiles="$(TargetDir)$(AssemblyName).dll"
+          DestinationFolder="$(ProjectDir)..\..\GameData\FrostMod\Plugins\"
+          SkipUnchangedFiles="false" />
+  </Target>
 </Project>
