@@ -2,11 +2,15 @@
   "NAME": "FrostMod",
   "URL": "https://raw.githubusercontent.com/RecoletoAerospace/FrostMod/main/GameData/FrostMod/FrostMod.version",
   "DOWNLOAD": "https://spacedock.info/mod/4258",
+  "GITHUB": {
+    "USERNAME": "RecoletoAerospace",
+    "REPOSITORY": "FrostMod"
+  },
   "VERSION": {
     "MAJOR": 1,
     "MINOR": 3,
     "PATCH": 1,
-    "BUILD": 0
+    "BUILD": 1
   },
   "KSP_VERSION": {
     "MAJOR": 1,
@@ -17,10 +21,5 @@
     "MAJOR": 1,
     "MINOR": 12,
     "PATCH": 0
-  },
-  "KSP_VERSION_MAX": {
-    "MAJOR": 1,
-    "MINOR": 12,
-    "PATCH": 99  //it's set to 99 just in case KSP updates and the mod is marked as "not compatible" when it still works
   }
 }
